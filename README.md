@@ -7,6 +7,6 @@ Ctrl + 1 : Tab to CtrlTab
 
 Ctrl + 2 : Tab to AltTab  
 
-Ctrl + 3 : Don't use Macro, but it's still On
+Ctrl + 3 : Stops Macro, but it's still On
 
 Ctrl + 4 : Terminate the Program
