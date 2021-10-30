@@ -12,4 +12,5 @@ Ctrl + 3 : Stops Macro, but it's still On
 Ctrl + 4 : Terminate the Program
 
 ## Changelog
-10/31, KeyWait Control line maked the program keep doing the 'Ctrl Down' Thing. Eliminated it and now works fine.
+2021/10/30, Made this.  
+2021/10/31, KeyWait Control line maked the program keep doing the 'Ctrl Down' Thing. Eliminated it and now works fine.
