@@ -2,5 +2,5 @@ TabMacro_by_Penagon.exe - 타곤
 [Introductions]
 Ctrl + 1 : Tab to CtrlTab (컨탭)
 Ctrl + 2 : Tab to AltTab (알탭)
-Ctrl + 3 : Stop Macro (정지)
+Ctrl + 3 : Stops Macro (정지)
 Ctrl + 4 : Terminate the Program (종료)
