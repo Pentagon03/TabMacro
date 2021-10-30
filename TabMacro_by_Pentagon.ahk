@@ -2,8 +2,6 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
-; Read Here.
 ; https://github.com/Pentagon03/TabMacro/
 
 Mode := 1
@@ -14,10 +12,17 @@ if (Mode = 1){
 else if (Mode = 2){
     Send {Alt down}{Tab}{Alt up}
 }
-else Send {Tab}
 return
 
-^1:: Mode := 1
-^2:: Mode := 2
-^3:: Mode := 3
-^4:: ExitApp
+^1::
+Suspend, Off
+Mode := 1
+return
+^2::
+Suspend, Off
+Mode := 2
+return
+^3:: Suspend, On
+^4:: 
+Suspend, Off
+ExitApp
