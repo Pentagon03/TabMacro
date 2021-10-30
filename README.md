@@ -1,4 +1,4 @@
-# TabMacro
+# TabMacro by Pentagon
 
 ## Introductions
 Ctrl + 1 : Tab to CtrlTab  
